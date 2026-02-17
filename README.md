@@ -1,6 +1,6 @@
 # porous-diffusioin-isomap
 ## GitHub Repository Overview
-This repository predicts the gas diffusion coefficient of unknown porous structures using Isomap method.The training dataset consists of the logarithmically transformed power-spectrum 3D voxel images (HDS (3-1)) obtained from 126 porous structures.The trained Isomap model is loaded and used to estimate the diffusion coefficient Dpred for a given test map.The test map must be provided as TIFF images of 3D image slices (HDS (1-1)).The conversion to the logarithmic power spectrum is performed automatically.
+This repository predicts the gas diffusion coefficient of unknown porous structures using Isomap method.The training dataset consists of the logarithmically transformed power-spectrum 3D voxel images (HDS (3-1)) obtained from 126 porous structures.The trained Isomap model is loaded and used to estimate the diffusion coefficient D_pred for a given test map.The test map must be provided as TIFF images of 3D image slices (HDS (1-1)).The conversion to the logarithmic power spectrum is performed automatically.
 
 ## Requirements
 Python **3.12.3** or later
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ├── demo/
 │   ├── run_codes.sh          # Master script that executes the workflow
 │   ├── code_Isomap.py        # Computes the Isomap embedding. Loads model.pkl and a test map, then performs the transform
-│   ├── code_pred.py          # Finds the nearest training structure and predicts Dpred
+│   ├── code_pred.py          # Finds the nearest training map and predicts D_pred
 │   ├── helpers.py            # Helper functions and utilities
 │   │
 │   ├── model/
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 │   │
 │   └── results/
 │       └── data_1/
-│           ├── data_1.txt            # Low-dimensional embedding obtained by Isomap for the test data
-│           ├── prediction.txt        # Predicted diffusion coefficient (Dpred) and parameters of the nearest training structure
-│           └── E1_vs_Porespy_D_m.png # Visualization of prediction (cross indicates nearest training sample)
+│           ├── data_1.txt            # Low-dimensional embedding obtained by Isomap method for the test map
+│           ├── prediction.txt        # D_pred and parameters of the nearest training map
+│           └── E1_vs_Porespy_D_m.png # Visualization of prediction (cross indicates nearest training map)
 ```
