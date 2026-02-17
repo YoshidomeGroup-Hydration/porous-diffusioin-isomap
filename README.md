@@ -18,29 +18,31 @@ pip install -r requirements.txt
 ```
 
 ## Folder Structure
+
+```text
 .
 ├── LICENSE
 ├── requirements.txt
 ├── demo/
-│   ├── run_codes.sh          : Master script that executes the following programs
-│   ├── code_Isomap.py        : Computes the Isomap embedding. 
-│   │                             Loads model.pkl and a test map, and performs the transform.
-│   ├── code_pred.py          : Finds the nearest training map and predicts Dpred
-│   ├── helpers.py            : Helper functions and utilities
+│   ├── run_codes.sh          # Master script that executes the workflow
+│   ├── code_Isomap.py        # Computes the Isomap embedding. Loads model.pkl and a test map, then performs the transform
+│   ├── code_pred.py          # Finds the nearest training structure and predicts Dpred
+│   ├── helpers.py            # Helper functions and utilities
 │   │
 │   ├── model/
-│   │   ├── model.pkl         : Trained Isomap model (HDS (3-1))
-│   │   ├── list_model.txt    : Parameter list of training dataset
-│   │   ├── Eigenvector-1.txt : First Isomap coordinates of training dataset
-│   │   ├── Diff_data.txt     : Diffusion coefficients of training dataset
-│   │   └── Mean_data.txt     : Mean particle diameter of training dataset
+│   │   ├── model.pkl         # Trained Isomap model (HDS (3-1))
+│   │   ├── list_model.txt    # Parameter list of the training dataset
+│   │   ├── Eigenvector-1.txt # First Isomap coordinate of the training dataset
+│   │   ├── Diff_data.txt     # Diffusion coefficients of the training dataset
+│   │   └── Mean_data.txt     # Mean particle diameters of the training dataset
 │   │
 │   ├── testmap/
 │   │   └── data_1/
-│   │       └── normalZ*.tif  : 3D image slices (HDS (1-1)) for testing
+│   │       └── normalZ*.tif  # 3D image slices (HDS (1-1)) for testing
 │   │
 │   └── results/
-│       └── data_1/                     : Output directory containing prediction results
-│           ├── data_1.txt              : LDS obtained by Isomap method for the test data
-│           ├── prediction.txt          : Dpred and the parameters of the nearest training map
-│           └── E1_vs_Porespy_D_m.png   : Visualization of prediction (the cross symbol indicates the nearest training sample)
+│       └── data_1/
+│           ├── data_1.txt            # Low-dimensional embedding obtained by Isomap for the test data
+│           ├── prediction.txt        # Predicted diffusion coefficient (Dpred) and parameters of the nearest training structure
+│           └── E1_vs_Porespy_D_m.png # Visualization of prediction (cross indicates nearest training sample)
+```
