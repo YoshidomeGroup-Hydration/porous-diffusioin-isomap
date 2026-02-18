@@ -46,3 +46,10 @@ pip install -r requirements.txt
 │           ├── prediction.txt        # D_pred and parameters of the nearest training map
 │           └── E1_vs_Porespy_D_m.png # Visualization of prediction (cross indicates nearest training map)
 ```
+
+## Using default sample
+  To predict a different sample, edit run_codes.sh and change:
+```text
+    cd demo/
+    bash run_codes.sh
+```
