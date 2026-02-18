@@ -91,6 +91,6 @@ https://doi.org/10.1016/j.commatsci.2025.114478
 
 # Contact
 If you have any questions, please contact Takashi Yoshidome at<br>
-takashi.yoshidome.b1@tohoku.ac.jp
+takashi.yoshidome.b1@tohoku.ac.jp <br>
 or Shota Arai at<br>
 shota.arai.c2@tohoku.ac.jp
