@@ -74,10 +74,13 @@ using the same format as the default sample. After execution, the prediction res
 ```text
 results/<path_testmap>/
 ```
-Input image requirements
-- TIFF image stack (3D slices)
-- Solid phase: 255
-- Pore phase: 0
+Input Image Requirements
+The input data must be a stack of 2D TIFF slices representing a 3D binary porous structure.
+- Voxel resolution: 10 nm
+- Volume size: 500 × 500 × 500 voxels
+- Solid phase intensity: 255
+- Pore phase intensity: 0
+
 
 # Licence
 This project is licensed under the MIT License.
