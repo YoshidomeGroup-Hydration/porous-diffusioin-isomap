@@ -76,3 +76,21 @@ Input image requirements
 - `TIFF image stack (3D slices)`
 - `Solid phase: 255`
 - `Pore phase: 0`
+
+# Licence
+The codes is available under the MIT License.
+
+# Citing this work
+If you use "PorousGen", please cite:
+```
+S. Arai, T. Yoshidome,
+PorousGen: An efficient algorithm for generating porous structures with accurate porosity and uniform density distributin,
+Comput. Mater. Sci., 264 (2026), 114478, 
+https://doi.org/10.1016/j.commatsci.2025.114478
+```
+
+# Contact
+If you have any questions, please contact Takashi Yoshidome at<br>
+takashi.yoshidome.b1@tohoku.ac.jp
+or Shota Arai at<br>
+shota.arai.c2@tohoku.ac.jp
