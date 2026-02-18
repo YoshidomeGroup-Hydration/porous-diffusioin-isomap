@@ -74,7 +74,7 @@ using the same format as the default sample. After execution, the prediction res
 ```text
 results/<path_testmap>/
 ```
-#### Input Image Requirements
+### Input Image Requirements
 The input data must be a stack of 2D TIFF slices representing a 3D binary porous structure.
 - Voxel resolution: 10 nm
 - Volume size: 500 × 500 × 500 voxels
