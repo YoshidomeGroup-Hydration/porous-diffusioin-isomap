@@ -46,7 +46,7 @@ pip install -r requirements.txt
 │       └── data_1/
 │           ├── data_1.txt            # Low-dimensional embedding obtained by Isomap method for the test map
 │           ├── prediction.txt        # D_pred and parameters of the nearest training map
-│           └── E1_vs_Porespy_D_m.png # Visualization of prediction (cross indicates nearest training map)
+│           └── E1_vs_Diff.png # Visualization of prediction (cross indicates nearest training map)
 ```
 
 ## Usage
