@@ -4,12 +4,12 @@ This repository predicts the gas diffusion coefficient of unknown porous structu
 
 ## Requirements
 Python **3.12.3** or later
-- numpy  (version 2.1.3)
-- scipy  (version 1.15.2)
-- scikit-learn (version 1.6.1)   
-- joblib (version 1.4.2)
-- Pillow (version: 11.0.0)
-- matplotlib (version: 3.10.0)
+- numpy==2.1.3
+- scipy==1.15.2
+- scikit-learn==1.6.1
+- joblib==1.4.2
+- Pillow==11.0.0
+- matplotlib==3.10.0
 
 Install dependencies:
 
