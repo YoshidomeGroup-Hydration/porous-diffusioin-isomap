@@ -81,9 +81,9 @@ Input image requirements
 This project is licensed under the MIT License.
 
 # Citing this work
-If you use "PorousGen", please cite:
+If you use this code in your research, please cite the following work:
 ```
-Shota. Arai, Yuki Takayama, and Takashi. Yoshidome,
+Shota Arai, Yuki Takayama, and Takashi Yoshidome,
 Structure-based Prediction of Gas Diffusion Property of Catalytic Layer of Proton Exchange Membrane Fuel Cells via Manifold Learning and X-ray Ptychographic Nano-computed Tomography,
 J. Power. Sources., XXX (2026), XXXXXX, 
 https://doi.org/XXX
