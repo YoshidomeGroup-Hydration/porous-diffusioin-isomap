@@ -75,9 +75,9 @@ using the same format as the default sample. After execution, the prediction res
 results/<path_testmap>/
 ```
 Input image requirements
-- `TIFF image stack (3D slices)`
-- `Solid phase: 255`
-- `Pore phase: 0`
+- TIFF image stack (3D slices)
+- Solid phase: 255
+- Pore phase: 0
 
 # Licence
 This project is licensed under the MIT License.
