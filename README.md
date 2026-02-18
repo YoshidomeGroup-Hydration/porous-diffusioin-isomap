@@ -61,7 +61,7 @@ The prepared sample dataset located in ```testmap/data_1/``` is used, and the pr
 results/data_1/
 ```
 
-### Using default sample
+### Using your own sample
 To predict a different sample, edit run_codes.sh and change:
 ```text
 path_testmap="data_1"
