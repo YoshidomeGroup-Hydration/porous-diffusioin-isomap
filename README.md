@@ -53,7 +53,7 @@ To run the code:
 cd demo/
 bash run_codes.sh
 ```
-The prepared sample dataset located in testmap/data_1/ is used, and the predicted gas diffusion coefficient is saved to:
+The prepared sample dataset located in ```text　testmap/data_1/ ```　is used, and the predicted gas diffusion coefficient is saved to:
 ```text
 results/data_1/
 ```
