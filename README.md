@@ -47,19 +47,32 @@ pip install -r requirements.txt
 │           └── E1_vs_Porespy_D_m.png # Visualization of prediction (cross indicates nearest training map)
 ```
 
-## Using default sample
+## Usage
+### Using default sample
 To run the code:
 ```text
 cd demo/
 bash run_codes.sh
 ```
-The prepared sample dataset located in ```testmap/data_1/```is used, and the predicted gas diffusion coefficient is saved to:
+The prepared sample dataset located in ```testmap/data_1/``` is used, and the predicted gas diffusion coefficient is saved to:
 ```text
 results/data_1/
 ```
 
+### Using default sample
 To predict a different sample, edit run_codes.sh and change:
 ```text
-cd demo/
-bash run_codes.sh
+path_testmap="data_1"
 ```
+to your dataset name.Then place your 3D image slices in:
+```text
+testmap/<path_testmap>/
+```
+using the same format as the default sample. After execution, the prediction results will be generated in:
+```text
+results/<path_testmap>/
+```
+Input image requirements
+・TIFF image stack (3D slices)
+・Solid phase: 255
+・Pore phase: 0
