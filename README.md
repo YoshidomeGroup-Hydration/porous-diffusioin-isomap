@@ -32,7 +32,7 @@ pip install -r requirements.txt
 │   ├── code_pred.py          # Finds the nearest training map and predicts D_pred
 │   ├── helpers.py            # Helper functions and utilities
 │   │
-│   ├── train_data/           # Training dataset 
+│   ├── train_data/           # Training dataset downloaded from Zenodo
 │   │   └── ran1_meanX_stanY_phi67.npz  
 │   │
 │   ├── model/
