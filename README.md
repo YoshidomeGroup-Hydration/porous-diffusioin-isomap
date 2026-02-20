@@ -54,6 +54,27 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+### 1. Download the training dataset
+The trained `model.pkl` file (~120 GB) cannot be distributed via this repository.  
+Therefore, please download the **training dataset** from the Zenodo URL below and place it in `demo/train_data/`.
+
+*(Insert Zenodo link here)*
+
+### 2. Build the Isomap model
+Run the following command:
+```bash
+cd demo/
+bash run_codes.sh
+```
+
+After execution, the trained model will be generated:
+```text
+demo/model/model.pkl
+```
+Once the model is successfully created, edit run_codes.sh:
+- Comment out code_make_model.py
+- Uncomment code_transform.py and code_pred.py
+
 ### Using default sample
 To run the code:
 ```text
