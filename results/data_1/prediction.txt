@@ -1,0 +1,2 @@
+Dpred: 8.163154040405267
+parameter: ran1_mean100_stan10_phi67
