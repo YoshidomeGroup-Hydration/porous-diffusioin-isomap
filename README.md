@@ -71,11 +71,11 @@ After execution, the trained model will be generated:
 ```text
 demo/model/model.pkl
 ```
-Once the model is successfully created, edit run_codes.sh:
-- Comment out code_make_model.py
-- Uncomment code_transform.py and code_pred.py
+Once the model is successfully created, edit `run_codes.sh`:
+- Comment out `code_make_model.py`
+- Uncomment `code_transform.py` and `code_pred.py`
 
-### Using default sample
+### 3. Using default sample
 To run the code:
 ```text
 cd demo/
@@ -86,7 +86,7 @@ The prepared sample dataset located in ```testmap/data_1/``` is used, and the pr
 results/data_1/
 ```
 
-### Using your own sample
+### 4. Using your own sample
 To predict a different sample, edit run_codes.sh and change:
 ```text
 path_testmap="data_1"
