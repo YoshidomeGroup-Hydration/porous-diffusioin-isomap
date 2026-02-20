@@ -36,7 +36,7 @@ pip install -r requirements.txt
 │   │   └── ran1_meanX_stanY_phi67.npz  
 │   │
 │   ├── model/
-│   │   ├── model.pkl         # Trained Isomap model (HDS (3-1)); created by running code_make_model.py using the training dataset downloaded from Zenodo
+│   │   ├── model.pkl         # Trained Isomap model (HDS (3-1)); created by running code_make_model.py using the training dataset
 │   │   ├── list_model.txt    # Parameter list of the training dataset
 │   │   ├── Eigenvector-1.txt # First Isomap coordinate of the training dataset
 │   │   ├── Diff_data.txt     # Diffusion coefficients of the training dataset
