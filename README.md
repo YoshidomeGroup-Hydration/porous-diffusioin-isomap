@@ -27,9 +27,13 @@ pip install -r requirements.txt
 ├── requirements.txt
 ├── demo/
 │   ├── run_codes.sh          # Master script that executes the workflow
-│   ├── code_Isomap.py        # Computes the Isomap embedding. Loads model.pkl and a test map, then performs the transform
+│   ├── code_make_model.py    # 
+│   ├── code_transform.py     # Computes the Isomap embedding. Loads model.pkl and a test map, then performs the transform
 │   ├── code_pred.py          # Finds the nearest training map and predicts D_pred
 │   ├── helpers.py            # Helper functions and utilities
+│   │
+│   ├── train_data/
+│   │   └── ran1_meanX_stanY_phi67.npz  # 
 │   │
 │   ├── model/
 │   │   ├── model.pkl         # Trained Isomap model (HDS (3-1))
