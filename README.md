@@ -23,6 +23,7 @@ pip install -r requirements.txt
 ```text
 .
 ├── LICENSE
+├── README.md
 ├── requirements.txt
 ├── demo/
 │   ├── run_codes.sh          # Master script that executes the workflow
