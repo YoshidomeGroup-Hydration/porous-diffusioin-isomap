@@ -11,7 +11,6 @@ This code was tested with:
 - scikit-learn==1.6.1
 - joblib==1.4.2
 - Pillow==11.0.0
-- matplotlib==3.10.0
 
 Install dependencies:
 
