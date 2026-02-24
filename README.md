@@ -55,8 +55,7 @@ pip install -r requirements.txt
 
 ## Usage
 ### 1. Download the training dataset
-The trained `model.pkl` file (~120 GB) is too large to upload to Zenodo.  
-Therefore, instead of distributing `model.pkl`, we provide the **training dataset** required to reconstruct the model.
+Because the trained model file (model.pkl, ~120 GB) exceeds the upload capacity of Zenodo, we instead provide the t**training dataset** required to reconstruct the model.
 
 Please download the dataset from the Zenodo URL below and place it in`demo/train_data/`.
 
