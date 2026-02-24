@@ -93,7 +93,7 @@ To predict a different sample, edit run_codes.sh and change:
 ```text
 path_testmap="data_1"
 ```
-to your dataset name.Then place your 3D image slices in:
+to your dataset name. Then place your 3D image slices in:
 ```text
 testmap/<path_testmap>/
 ```
@@ -122,7 +122,7 @@ https://doi.org/XXX
 ```
 
 # Contact
-If you have any questions, please contact Takashi Yoshidome at<br>
-takashi.yoshidome.b1@tohoku.ac.jp <br>
-or Shota Arai at<br>
+If you have any questions, please contact Shota Arai at<br>
 shota.arai.c2@tohoku.ac.jp
+or Takashi Yoshidome at<br>
+takashi.yoshidome.b1@tohoku.ac.jp <br>
