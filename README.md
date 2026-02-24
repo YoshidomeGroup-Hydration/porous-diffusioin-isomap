@@ -58,7 +58,7 @@ Because the trained model file (model.pkl, ~120 GB) exceeds the upload capacity 
 
 Please download the dataset from the Zenodo URL below and place it in`demo/train_data/`.
 
-*https://zenodo.org/records/18752348*
+*https://zenodo.org/records/18752930*
 
 ### 2. Build the Isomap model
 Run the following command:
