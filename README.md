@@ -60,7 +60,7 @@ Therefore, instead of distributing `model.pkl`, we provide the **training datase
 
 Please download the dataset from the Zenodo URL below and place it in`demo/train_data/`.
 
-*(Insert Zenodo link here)*
+*https://zenodo.org/records/18665905*
 
 ### 2. Build the Isomap model
 Run the following command:
