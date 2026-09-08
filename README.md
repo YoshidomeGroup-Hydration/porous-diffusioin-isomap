@@ -116,7 +116,7 @@ If you use this code in your research, please cite the following work:
 Shota Arai, Yuki Takayama, and Takashi Yoshidome,
 Structure-based Prediction of Gas Diffusion Property of Catalytic Layer of Proton Exchange Membrane Fuel Cells via Manifold Learning and X-ray Ptychographic Nano-computed Tomography,
 J. Power. Sources., 676 (2026), 239916, 
-https://doi.org/XXX
+https://doi.org/10.1016/j.jpowsour.2026.239916
 ```
 
 # Contact
